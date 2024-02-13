@@ -96,6 +96,10 @@ body {
 
 /* ===============Hero section Styles=================*/
 
+.hero {
+  background-color: #2e2f42;
+}
+
 .main-title {
   font-size: 56px;
   line-height: 1.07;
@@ -103,7 +107,6 @@ body {
   font-weight: 700;
   text-align: center;
   color: #fff;
-  background-color: #2e2f42;
 }
 
 .order-service-btn {
@@ -141,6 +144,9 @@ body {
 
 /* ===============Team section Styles=================*/
 
+.team {
+  background-color: #f4f4fd;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -149,7 +155,10 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  background-color: #f4f4fd;
+}
+
+.team-list-item {
+  background-color: #ffffff;
 }
 
 .team-list-fullname {
@@ -159,7 +168,6 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  background-color: #ffffff;
 }
 
 .team-list-text {
@@ -173,6 +181,7 @@ body {
 /* ===============Portfolio section Styles=================*/
 
 .portfolio-title {
+  font-weight: 500;
   font-size: 36px;
   line-height: 1.12;
   letter-spacing: 0.02em;
@@ -198,6 +207,10 @@ body {
 
 /* ===============Footer section Styles=================*/
 
+.page-footer {
+  background-color: #2e2f42;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -206,7 +219,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  background-color: #2e2f42;
 }
 
 .text-footer-logo {
