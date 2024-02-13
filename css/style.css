@@ -18,6 +18,7 @@ img {
 .body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
+  color: #2e2f42;
 }
 
 /* ===============Page Header Style=================*/
@@ -27,7 +28,6 @@ img {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2e2f42;
 }
 
 .text-logo {
@@ -39,7 +39,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .menu-link:hover,
@@ -96,7 +95,6 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .benefits-list-text {
@@ -112,14 +110,12 @@ img {
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .team-list-fullname {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .team-list-text {
@@ -135,14 +131,12 @@ img {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .portfolio-list-services {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .portfolio-list-function {
