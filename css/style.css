@@ -24,12 +24,13 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2e2f42;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .text-logo {
   font-family: "Raleway", sans-serif;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .menu-link {
