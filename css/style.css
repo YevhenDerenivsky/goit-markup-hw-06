@@ -69,10 +69,9 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-   text-align: center
+  text-align: center;
   background-color: #2e2f42;
   color: #fff;
-  
 }
 
 .order-service-btn {
