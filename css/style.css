@@ -11,14 +11,10 @@ button {
   cursor: pointer;
 }
 
-img {
-  display: block;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
-  color: #2e2f42;
+  color: #434455;
 }
 
 /* ===============Page Header Style=================*/
