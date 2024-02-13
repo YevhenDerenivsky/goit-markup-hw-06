@@ -67,9 +67,12 @@ body {
 
 .main-title {
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+   text-align: center
+  background-color: #2e2f42;
   color: #fff;
+  
 }
 
 .order-service-btn {
@@ -97,6 +100,8 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #2e2f42;
 }
 
 .benefits-list-text {
