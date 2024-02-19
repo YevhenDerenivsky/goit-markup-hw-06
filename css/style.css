@@ -25,6 +25,20 @@
 ul,
 ol {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
@@ -36,13 +50,71 @@ address {
   font-style: normal;
 }
 
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
   color: #434455;
+  margin: 0;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
 }
 
 /* ===============Page Header Style=================*/
+
+.page-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #fff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.page-header .container {
+  display: flex;
+  align-items: center;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.page-header .container {
+  justify-content: space-between;
+}
+
+.menu .link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -51,6 +123,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .text-logo {
@@ -98,6 +171,7 @@ body {
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .main-title {
@@ -107,6 +181,8 @@ body {
   font-weight: 700;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto 48px;
 }
 
 .order-service-btn {
@@ -118,6 +194,14 @@ body {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: block;
+  margin: 0 auto;
 }
 
 .order-service-btn:hover,
@@ -127,12 +211,40 @@ body {
 
 /* ===============Benefits section Styles=================*/
 
+.benefits-list {
+  display: flex;
+  gap: 24px;
+}
+
+.benefits-list-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.title-benefits-none {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .benefits-list-title {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .benefits-list-text {
@@ -144,9 +256,18 @@ body {
 
 /* ===============Team section Styles=================*/
 
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -155,22 +276,28 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-list-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
 .team-list-fullname {
+  display: block;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-list-text {
+  display: block;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -178,7 +305,30 @@ body {
   color: #434455;
 }
 
+.team-info {
+  width: 264px;
+  border-radius: 0 0 4px 4px;
+  padding: 32px 0px;
+  border-top: none;
+}
+
 /* ===============Portfolio section Styles=================*/
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-list {
+  display: flex;
+  row-gap: 48px;
+  column-gap: 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-list-item {
+  display: block;
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .portfolio-title {
   font-weight: 500;
@@ -188,6 +338,17 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+  max-width: 100%;
+}
+
+.item-portfolio-text {
+  padding: 32px 16px;
+  background-color: #fff;
+  display: flex;
+  flex-flow: column;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-list-services {
@@ -196,6 +357,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-list-function {
@@ -236,4 +398,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
+}
+
+.page-footer {
+  padding: 100px 0 100px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
