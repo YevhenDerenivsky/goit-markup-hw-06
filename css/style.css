@@ -359,7 +359,7 @@ body {
   padding: 32px 0px;
   border-top: none;
 }
-.social-list {
+.list-social {
   display: flex;
   gap: 24px;
   align-items: center;
