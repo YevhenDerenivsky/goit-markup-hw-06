@@ -581,10 +581,33 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe-block">
+          <p class="footer-subscribe-text">Subscribe</p>
+          <form class="footer-subscribe-form">
+            <label class="footer-subscribe-label"
+              ><input
+                class="footer-subscribe-input"
+                type="email"
+                name="subscribe"
+                placeholder="E-mail"
+            /></label>
+            <button class="footer-subscribe-button" type="submit">
+              Subscribe
+              <svg
+                class="subscribe-button-icon"
+                width="24"
+                height="24"
+                aria-label="paper plane icon"
+              >
+                <use href="./images/icons.svg#icon-plane"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!------------------Backdrop section--------------------------->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="submit">
           <svg
@@ -602,7 +625,7 @@
         <form class="review-form">
           <div class="review-form-field-wrapper">
             <label for="user-name" class="review-form-field-label"
-              >Name
+              >Name</label>
               <div class="review-form-input-wrapper">
                 <input
                   type="text"
@@ -617,11 +640,11 @@
                   <use href="./images/icons.svg#icon-person"></use>
                 </svg>
               </div>
-            </label>
+            
           </div>
           <div class="review-form-field-wrapper">
             <label for="user-phone" class="review-form-field-label"
-              >Phone
+              >Phone</label>
               <div class="review-form-input-wrapper">
                 <input
                   type="tel"
@@ -636,11 +659,11 @@
                   <use href="./images/icons.svg#icon-phone"></use>
                 </svg>
               </div>
-            </label>
+            
           </div>
           <div class="review-form-field-wrapper">
             <label for="user-email" class="review-form-field-label"
-              >Email
+              >Email</label>
               <div class="review-form-input-wrapper">
                 <input
                   type="email"
@@ -653,7 +676,7 @@
                   <use href="./images/icons.svg#icon-email"></use>
                 </svg>
               </div>
-            </label>
+            
           </div>
           <div class="review-form-field-wrapper">
             <label for="user-comment" class="review-form-field-label"
@@ -671,13 +694,19 @@
             <input
               id="privvacy-policy"
               type="checkbox"
-              class="review-form-privacy-checkbox"
+              class="review-form-privacy-checkbox title-benefits-none"
               name="privvacy-policy"
               value="true"
               required
             />
             <label for="privvacy-policy" class="review-form-checkbox-label"
-              >I accept the terms and conditions of the
+              >
+              <span class="review-form-own-checkbox">
+                <svg class="review-form-own-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkmark"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
               <a class="privacy-policy-link" href="">Privacy Policy</a>
             </label>
           </div>
