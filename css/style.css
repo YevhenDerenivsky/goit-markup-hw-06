@@ -700,8 +700,10 @@ body {
 }
 .close-button:hover,
 .close-button:focus {
-  background-color: #404bbf;
+  fill: #404bbf;;
   border: none;
+  background-color: #404bbf
+
 }
 .cross-icon {
   fill: #2e2f42;
@@ -823,7 +825,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 
 }
 
-.modal-checkbox-input:checked + .checkbox-label > .modal-checkbox-icon-wrapper {
+.modal-checkbox-input:checked + .checkbox-label  .modal-checkbox-icon-wrapper {
   background-color:  #404bbf;
   fill:  #F4F4FD;
   border-color: #4d5ae5;
