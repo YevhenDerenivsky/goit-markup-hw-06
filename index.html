@@ -141,7 +141,7 @@
               <img
                 class="team-list-avatar"
                 src="./images/mark-guerrero.jpg"
-                srcset="./images/mark-guerrero_2x.jpg mark-guerrero_2x"
+                srcset="./images/mark-guerrero_2x.jpg 2x"
                 alt="Mark Guerrero avatar"
                 width="264"
               />
@@ -205,7 +205,7 @@
               <img
                 class="team-list-avatar"
                 src="./images/tom-ford.jpg"
-                srcset="./images/tom-ford_2x.jpg tom-ford_2x"
+                srcset="./images/tom-ford_2x.jpg 2x"
                 alt="Tom Ford avatar"
                 width="264"
               />
@@ -269,7 +269,7 @@
               <img
                 class="team-list-avatar"
                 src="./images/camila-garcia.jpg"
-                srcset="./images/сamila-garcia_2x.jpg camila-garcia_2x"
+                srcset="./images/сamila-garcia_2x.jpg 2x"
                 alt="Camila Garcia avatar"
                 width="264"
               />
@@ -333,7 +333,7 @@
               <img
                 class="team-list-avatar"
                 src="./images/daniel-wilson.jpg"
-                srcset="./images/daniel-wilson_2x.jpg daniel-wilson_2x"
+                srcset="./images/daniel-wilson_2x.jpg 2x"
                 alt="Daniel Wilson avatar"
                 width="264"
               />
@@ -770,7 +770,13 @@
         <p class="review-form-description">
           Leave your contacts and we will call you back
         </p>
-        <form class="review-form">
+        <form
+          class="review-form"
+          action="modal-page"
+          novalidate
+          autocomplete="off"
+          name="contact-form"
+        >
           <div class="review-form-field-wrapper">
             <label for="user-name" class="review-form-field-label">Name</label>
             <div class="review-form-input-wrapper">
