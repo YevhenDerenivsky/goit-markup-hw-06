@@ -510,7 +510,19 @@ section {
   margin-bottom: 72px;
 }
 
-.hero {
+.portfolio-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.portfolio-title .hero {
   background-color: #2e2f42;
   background-image: linear-gradient(
       to bottom,
@@ -1017,9 +1029,6 @@ img {
     margin-right: auto;
     width: auto;
     height: auto;
-  }
-
-  .container-logo-nav {
   }
 
   .address-list {
