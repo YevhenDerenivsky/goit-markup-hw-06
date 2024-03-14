@@ -159,6 +159,9 @@ section {
   width: 320px;
   height: 100%;
 }
+.mob-menu-block {
+  margin-top: auto;
+}
 
 .mob-menu-list {
   display: flex;
@@ -230,6 +233,19 @@ section {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mob-header-tel {
+  color: #4d5ae5;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .mob-contacts-list {
   display: flex;
   flex-direction: column;
@@ -279,6 +295,7 @@ section {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: rgba(46, 47, 66, 0.4);
 }
 
 .backdrop.is-open {
@@ -985,6 +1002,12 @@ img {
   width: 0;
   height: 0;
   visibility: hidden;
+}
+
+.hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .container-head {
